@@ -12,4 +12,10 @@ class SaveControllerSpec extends FunSuite{
     assert(result == "data")
   }
 
+  test("getData"){
+    val result = saveController.getData(Some("text"))
+
+    assert(result == "text")
+  }
+
 }
