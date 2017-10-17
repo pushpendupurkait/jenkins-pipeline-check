@@ -4,7 +4,6 @@ interface Poly{
     int add(int a, int b);
 }
 
-
 class Num implements Poly{
     @Override
     public int add(int a, int b) {
